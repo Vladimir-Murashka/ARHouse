@@ -13,6 +13,11 @@
 		22A837932869D040002D74DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22A837912869D040002D74DA /* Main.storyboard */; };
 		22A837952869D048002D74DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22A837942869D048002D74DA /* Assets.xcassets */; };
 		22A837982869D048002D74DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22A837962869D048002D74DA /* LaunchScreen.storyboard */; };
+		22A8379F2869D0A4002D74DA /* Plane.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A8379E2869D0A4002D74DA /* Plane.swift */; };
+		22A837A12869D0B5002D74DA /* VirtualObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A837A02869D0B5002D74DA /* VirtualObject.swift */; };
+		22A837A32869D14A002D74DA /* smoke.png in Resources */ = {isa = PBXBuildFile; fileRef = 22A837A22869D149002D74DA /* smoke.png */; };
+		22A837A52869D14E002D74DA /* Smoke.scnp in Resources */ = {isa = PBXBuildFile; fileRef = 22A837A42869D14E002D74DA /* Smoke.scnp */; };
+		22A837A72869D164002D74DA /* BitMaskCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A837A62869D164002D74DA /* BitMaskCategory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +28,11 @@
 		22A837922869D040002D74DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		22A837942869D048002D74DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		22A837972869D048002D74DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		22A8379E2869D0A4002D74DA /* Plane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plane.swift; sourceTree = "<group>"; };
+		22A837A02869D0B5002D74DA /* VirtualObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirtualObject.swift; sourceTree = "<group>"; };
+		22A837A22869D149002D74DA /* smoke.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = smoke.png; path = "../../../../Downloads/ARKitPlanes-3/ARKitPlanes/smoke.png"; sourceTree = "<group>"; };
+		22A837A42869D14E002D74DA /* Smoke.scnp */ = {isa = PBXFileReference; lastKnownFileType = file.scp; name = Smoke.scnp; path = "../../../../Downloads/ARKitPlanes-3/ARKitPlanes/Smoke.scnp"; sourceTree = "<group>"; };
+		22A837A62869D164002D74DA /* BitMaskCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitMaskCategory.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,8 +66,13 @@
 			isa = PBXGroup;
 			children = (
 				22A8378B2869D040002D74DA /* AppDelegate.swift */,
+				22A837A42869D14E002D74DA /* Smoke.scnp */,
+				22A837A22869D149002D74DA /* smoke.png */,
 				22A8378D2869D040002D74DA /* art.scnassets */,
 				22A8378F2869D040002D74DA /* ViewController.swift */,
+				22A837A62869D164002D74DA /* BitMaskCategory.swift */,
+				22A8379E2869D0A4002D74DA /* Plane.swift */,
+				22A837A02869D0B5002D74DA /* VirtualObject.swift */,
 				22A837912869D040002D74DA /* Main.storyboard */,
 				22A837942869D048002D74DA /* Assets.xcassets */,
 				22A837962869D048002D74DA /* LaunchScreen.storyboard */,
@@ -125,8 +140,10 @@
 			files = (
 				22A8378E2869D040002D74DA /* art.scnassets in Resources */,
 				22A837982869D048002D74DA /* LaunchScreen.storyboard in Resources */,
+				22A837A32869D14A002D74DA /* smoke.png in Resources */,
 				22A837952869D048002D74DA /* Assets.xcassets in Resources */,
 				22A837932869D040002D74DA /* Main.storyboard in Resources */,
+				22A837A52869D14E002D74DA /* Smoke.scnp in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,7 +154,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22A837A12869D0B5002D74DA /* VirtualObject.swift in Sources */,
 				22A837902869D040002D74DA /* ViewController.swift in Sources */,
+				22A837A72869D164002D74DA /* BitMaskCategory.swift in Sources */,
+				22A8379F2869D0A4002D74DA /* Plane.swift in Sources */,
 				22A8378C2869D040002D74DA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
